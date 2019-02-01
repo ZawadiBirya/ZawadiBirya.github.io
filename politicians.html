@@ -1,0 +1,137 @@
+<Doctype html>
+<html>
+<head>
+<h1>POLITICO</h1>
+<title>Admin</title>
+<button>Back To Main Site</button> </br>
+<button>Run For Elected Office</button> </br>
+    <button>Contest An Election</button> </br>
+<button>Logout</button>
+<p> View:
+<select>
+<option>Political Parties</option>
+<option> Politicians Running </option>
+<option> Results </option>
+</select> 
+</p>
+<style>
+table{
+border-collapse:collapse;
+width: 100%;
+padding:18px;
+text-align: center;
+    }
+    th{
+background-color:mediumaquamarine;
+color:black;
+    }
+th, td{
+border: 2px solid #ddd;
+padding:15px;
+ }
+    h2 {
+font-style:italic;
+    text-align:center;
+    }
+.avatar {
+width:100px;
+height:100px;
+border-radius:50%;
+position:absolute;
+top: -5px;
+left:calc(50% - 50px);
+    }
+</style>
+</head>
+<body>
+<div class = "admin">
+<h2> Profile </h2>
+<div class = "register">
+<img src = "imgs/avatar.jpg" class = "avatar">
+<table>
+<tbody>
+</tr>
+</tbody>
+</table>      
+</div>  
+</body>
+<body>
+<div class = "admin">
+<h2> Elections</h2>
+<table>
+<tbody>
+<tr>
+<th> Seat </th> 
+<th> Candidates </th>   
+<th> Region </th>
+<th>More Information</th>
+<th> Status </th>
+</tr>
+<tr>
+<td>Gorvernor</td>
+<td> <p>
+<select>
+<option>Ken Adu</option>
+<option> Mary Adu </option>
+</p>
+</td>
+<td>Nairobi</td>
+<td> <a href = "#">More Information </a></td>
+<td><button id = "votebutton1">Results</button></td>
+<script type = "text/javascript">
+document.getElementById("votebutton1").onclick = function(){ alert ("If you wish to contest an election result, click on the 'Contest Election' button on the top menu." ) 
+}
+</script>
+</tr>
+<tr>
+<td>Senator</td>
+<td> <p>
+<select>
+<option>Ken Adu</option>
+<option> Mary Adu </option>
+</p>
+<td>Kilifi South</td>
+<td> <a href = "#">More Information </a></td>
+<td><button id = "votebutton2">Results</button></td>
+<script type = "text/javascript">
+document.getElementById("votebutton2").onclick = function(){ alert ("If you wish to contest an election result, click on the 'Contest Election' button on the top menu." ) 
+}
+</script>
+</tr>
+<tr>
+<td>Women's Rep</td>
+<td> <p>
+<select>
+<option>Ken Adu</option>
+<option> Mary Adu </option>
+</p>
+<td>Kakamega East</td>
+<td> <a href = "#">More Information </a></td>
+<td><button id = "votebutton3">Results</button></td>
+<script type = "text/javascript">
+document.getElementById("votebutton3").onclick = function(){ alert ("If you wish to contest an election result, click on the 'Contest Election' button on the top menu." ) 
+}
+</script>
+</tr>
+<tr>
+<td>Youth Rep</td>
+<td> <p>
+<select>
+<option>Ken Adu</option>
+<option> Mary Adu </option>
+</p>
+<td> Marsabit North</td>
+<td> <a href = "#">More Information </a></td>
+<td><button id = "votebutton4">Results</button></td>
+<script type = "text/javascript">
+document.getElementById("votebutton4").onclick = function(){ alert ("If you wish to contest an election result, click on the 'Contest Election' button on the top menu." ) 
+}
+</script>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>      
+</div>  
+</body>
+</html>

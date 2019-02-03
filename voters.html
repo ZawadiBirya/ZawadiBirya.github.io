@@ -3,14 +3,21 @@
 <head>
 <h1>POLITICO</h1>
 <title>Admin</title>
-<button>Back To Main Site</button>
-<button>Logout</button>
-<p> View:
+<button onclick="window.location.href='https://zawadibirya.github.io/'">Back To Main Site</button>
+    <button onclick="window.location.href='https://zawadibirya.github.io/'">Logout</button> </br>
+<p> View All Political Parties:
 <select>
-<option> Parties </option>
-<option> Politicians Running </option>
-<option> Results </option>
-</select> 
+<option> ODM </option>
+<option> Jubilee </option>
+<option> Ford </option>
+<option> Kadu Asili </option>
+</select>
+</p>
+<p> View Voting History:
+<select>
+<option> Ken Adu, Nairobi Gorvenor Seat , ODM ,  Aug, 2018 </option>
+<option> Mary Adu, Mathare Senator Seat , Jubilee , Jan , 2018 </option>
+</select>
 </p>
 <style>
 table{
@@ -55,11 +62,11 @@ left:calc(50% - 50px);
 </body>
 <body>
 <div class = "admin">
-<h2> Election Results</h2>
+<h2> Vote</h2>
 <table>
 <tbody>
 <tr>
-<th> Leader </th> 
+<th> Politicians Running </th> 
 <th> Party </th>   
 <th> Office </th>
 <th>Election Date</th>
@@ -67,52 +74,72 @@ left:calc(50% - 50px);
 <th> View Results </th>
 </tr>
 <tr>
-<td>Ken Adu</td>
+<td>
+<select>
+<option> Ken Adu </>
+<option> Mary Adu </>
+</select>
+</td>
 <td>Ford</td>
 <td>Nairobi Governor</td>
-<td> <a href = "#">Jan 1st, 2019 </a></td>
+<td>Jan 1st, 2019</td>
 <td><button id = "votebutton1">Vote</button></td>
 <script type = "text/javascript">
 document.getElementById("votebutton1").onclick = function(){ alert ("Sorry! This election has past, therefore voting is closed. Click on View Results to see the results." ) 
 }
 </script>
-<td><button>View Results</button></td>
+<td><button onclick="window.location.href='https://zawadibirya.github.io/results.html'">View Results</button></td>
 </tr>
 <tr>
-<td>Ken Adu</td>
+<td>
+<select>
+<option> Ken Adu </>
+<option> Mary Adu </>
+</select>
+</td>
 <td>Ford</td>
 <td>Nairobi Governor</td>
-<td> <a href = "#">Feb 4th, 2019 </a></td>
+<td>Feb 4th, 2019</td>
 <td><button id = "votebutton2">Vote</button></td>
 <script type = "text/javascript">
 document.getElementById("votebutton2").onclick = function(){ alert ("Congratulations! You have voted. Please note you can only vote once." ) 
 }
 </script>
-<td><button>View Results</button></td>
+<td><button onclick="window.location.href='https://zawadibirya.github.io/results.html'">View Results</button></td>
 </tr>
 <tr>
-<td>Ken Adu</td>
+<td>
+<select>
+<option> Ken Adu </>
+<option> Mary Adu </>
+</select>
+</td>
 <td>Ford</td>
 <td>Nairobi Governor</td>
-<td> <a href = "#">March 15th, 2019 </a></td>
+<td>March 15th, 2019</td>
 <td><button id = "votebutton3">Vote</button></td>
 <script type = "text/javascript">
 document.getElementById("votebutton3").onclick = function(){ alert ("Congratulations! You have voted. Please note you can only vote once.." ) 
 }
 </script>
-<td><button>View Results</button></td>
+<td><button onclick="window.location.href='https://zawadibirya.github.io/results.html'">View Results</button></td>
 </tr>
 <tr>
-<td>Ken Adu</td>
+<td>
+<select>
+<option> Ken Adu </>
+<option> Mary Adu </>
+</select>
+</td>
 <td>Ford</td>
 <td>Nairobi Governor</td>
-<td> <a href = "#">April 20th, 2019 </a></td>
+<td>April 20th, 2019</td>
 <td><button id = "votebutton4">Vote</button></td>
 <script type = "text/javascript">
 document.getElementById("votebutton4").onclick = function(){ alert ("Congratulations! You have voted. Please note you can only vote once.." ) 
 }
 </script>
-<td><button>View Results</button></td>
+<td><button onclick="window.location.href='https://zawadibirya.github.io/results.html'">View Results</button></td>
 </tr>
 <tr>
 </tr>

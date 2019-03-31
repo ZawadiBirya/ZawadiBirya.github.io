@@ -93,7 +93,6 @@ a.active, .nav a:hover{
   top: :40px;
   color:white;
   font-family: century gothic;
-  font-weight:bold;
   padding:100px;
   display: none;
   padding-left:300px;
@@ -106,5 +105,77 @@ a.active, .nav a:hover{
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 15px;
+  word-spacing: 0.5px;
+}
+.resume{
+  position: absolute;
+  right: 0;
+  top: :40px;
+  color:white;
+  font-family: century gothic;
+  padding:100px;
+  display: none;
+  padding-left:300px;
+  background-color: #051019;
+  opacity:0.8;
+  width: 450px;
+  text-align: justify;
+}
+.resume p{
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 15px;
   word-spacing: 1px;
+}
+.resume li{
+  font-size: 20px;
+  word-spacing: 0.5px;
+}
+.portfolio{
+  position: absolute;
+  right: 0;
+  top: :40px;
+  color:white;
+  font-family: century gothic;
+  padding:100px;
+  display: none;
+  padding-left:300px;
+  background-color: #051019;
+  opacity:0.8;
+  width: 450px;
+  text-align: justify;
+}
+.portfolio p{
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  word-spacing: 1px;
+}
+.portfolio a{
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  word-spacing: 1px;
+  color: white;
+}
+.contact{
+  position: absolute;
+  right: 0;
+  top: :40px;
+  color:white;
+  font-family: century gothic;
+  padding:100px;
+  display: none;
+  padding-left:300px;
+  background-color: #051019;
+  opacity:0.8;
+  width: 450px;
+  text-align: justify;
+}
+.contact p{
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  word-spacing: 1px;
+  color: white;
 }

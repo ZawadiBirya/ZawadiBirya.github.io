@@ -17,7 +17,7 @@
 </div>
 <div class = "about">
 <p>
-I work at Equity Bank Kenya as a Communications & Advertising Officer</br>
+I work at Equity Bank Kenya as a Communications & Advertising Officer.
 I provide Digital Support across the Bank and its subsidiaries through Social Media Management, Digital Marketing campaigns and Web and Intranet management.</br>
 </p>
 <p>
@@ -25,6 +25,81 @@ Before life at Equity Bank, I worked at Technology Company, Praekelt as a Copy W
 </p>
 <p>
 Prior to Praekelt, I gained editorial experience through Freelance writing work. My Features and Opinion pieces were published by the Daily Nation, The Standard, UP Magazine and Kenya Concierge.</br>
+</p>
+</div>
+<div class ="resume">
+<p>
+<h1> Professional Experience<h1/>
+</br>
+<h2>Communication & Advertising Officer</h2>
+<h2>Equity Bank Limited</h2>
+<h2>October 2015 – Present</h2> </br>
+<ul>
+<li> Provided Advertising and Event Branding (Equity Investment Bank Frontier Conference) for Equity Investment Bank between 2015 and 2017. </li> </br>
+<li> Provide Digital Support across the Bank and its subsidiaries through Social Media Management, Digital Marketing campaigns, Live streaming during Bank events as well as Website and Intranet management to date.</li> </br>
+</ul>
+</br>
+<h2>Copywriter & Community Manager</h2>
+<h2>Praekelt Consulting</h2>
+<h2>December 2011 – August 2014</h2> </br>
+<ul>
+<li> Prepared and executed Coca-Cola’s 2013/2014 social media strategy for Central East and West Africa (CEWA) in collaboration with Praekelt Consulting’s Head of Strategy, Belinda Lewis. </li> </br>
+<li> Created and curated digital content and campaigns on the Rexona Women Page as well as provided digital support at on-the-ground activations.</li> </br>
+<li> Wrote and curated English and Swahili for Praekelt Foundation's behaviour change mobisites: Young Africa Live (YAL) Kenya and Young Africa Live (YAL) Tanzania.</li> </br>
+</ul>
+</br>
+<h2>Intern - Public Relations Department</h2>
+<h2>Japanese Embassy</h2>
+<h2>August 2010 – November 2010</h2> </br>
+<ul>
+<li> Daily media monitoring. </li> </br>
+<li> Media liasoning , Press Release Writing and Event Management for the Embassies' weekly Japanese Cultural Session. </li> </br>
+<li> Media liasoning , Press Release Writing and Event Management for the Embassies' annual High School Teacher's Conference.</li> </br>
+</ul>
+</p>
+<p>
+<h1> Education </h1></br>
+<p>
+Master of Arts Degree, Communication Studies</br>
+specialization: Development Communication</br>
+Nairobi University: 2017 – 2019</br>
+</p>
+</br>
+<p>
+Bachelor of Arts Degree, Journalism</br>
+specialization: Public Relations</br>
+United States International University: 2008 – 2011</br>
+</p>
+</p>
+</div>
+<div class ="portfolio">
+<p>
+Aside from Communication & Advertising,
+I am also passionate about writing and coding and do it during my free time.
+You can check out my latest work below:
+</p>
+<p>
+<h1> Editorial</h1>
+<ul>
+<li> <a href = "#"> Black Is Still Beautiful Ladies, Daily Nation, October 2007</a> </li>
+<li> <a href = "#"> Black, bold and beautiful, The Standard, May 2009</a> </li>
+<li> <a href = "#"> The Wonder Boys of Starehe, UP Magazine, June, 2012</a> </li>
+<li> <a href = "#"> Kungfu Grannies, UP Magazine, November, 2012</a>
+<li> <a href = "#"> Planned ICC trials about deterrence, Daily Nation, July, 2010</a> </li>
+</ul>
+</p>
+
+<p>
+<h1> Code</h1>
+<a href = "https://zawadibirya.github.io/politico">Politico Voting Portal</a>
+</p>
+</div>
+<div class ="contact">
+<h1> You Can Reach Me on: </h1>
+</br>
+<p>
+Email: zawadibirya@gmail.com </br>
+Linkedin: https://www.linkedin.com/in/zawadibirya/
 </p>
 </div>
 
@@ -51,16 +126,45 @@ $(document).ready(function(){
   $d = $('.d'),
   $e = $('.e'),
   $home = $('.home'),
-  $about = $('.about');
+  $about = $('.about'),
+  $resume = $('.resume');
+  $portfolio = $('.portfolio');
+  $contact = $('.contact');
 
   $a.click(function(){
     $home.fadeIn();
     $about.fadeOut();
+    $resume.fadeOut();
+    $portfolio.fadeOut();
+    $contact.fadeOut();
   });
-
   $b.click(function(){
     $home.fadeOut();
     $about.fadeIn();
+    $resume.fadeOut();
+    $portfolio.fadeOut();
+    $contact.fadeOut();
+  });
+    $c.click(function(){
+      $home.fadeOut();
+      $about.fadeOut();
+      $resume.fadeIn();
+      $portfolio.fadeOut();
+      $contact.fadeOut();
+  });
+  $d.click(function(){
+    $home.fadeOut();
+    $about.fadeOut();
+    $resume.fadeOut();
+    $portfolio.fadeIn();
+    $contact.fadeOut();
+  });
+  $e.click(function(){
+    $home.fadeOut();
+    $about.fadeOut();
+    $resume.fadeOut();
+    $portfolio.fadeOut();
+    $contact.fadeIn();
   });
 });
 </script>

@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Website</title>
+<title>Maria Zawadi Birya's Website</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <div class ="background">
 
+<div class = "content"></div>
+
+<div class = "home">
+
+<h1>I AM MARIA ZAWADI BIRYA</h1>
+<h3>An Integrated Marketing Communications Professional</h3>
+
+</div>
+<div class = "about">
+<p>
+I work at Equity Bank Kenya as a Communications & Advertising Officer</br>
+I provide Digital Support across the Bank and its subsidiaries through Social Media Management, Digital Marketing campaigns and Web and Intranet management.</br>
+</p>
+<p>
+Before life at Equity Bank, I worked at Technology Company, Praekelt as a Copy Writer and Community Manager. My accounts included Young Africa Live Kenya & Tanzania, Rexona Women and Coca-Cola.</br>
+</p>
+<p>
+Prior to Praekelt, I gained editorial experience through Freelance writing work. My Features and Opinion pieces were published by the Daily Nation, The Standard, UP Magazine and Kenya Concierge.</br>
+</p>
+</div>
+
 <div class = "nav">
   <a class="a active" href = "#"> HOME </a>
   <a class="b" href = "#"> ABOUT </a>
   <a class="c" href = "#"> RESUME </a>
-  <a class="d" href = "#"> PROJECTS </a>
+  <a class="d" href = "#"> PORTFOLIO </a>
   <a class="e" href = "#"> CONTACT </a>
 </div>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -21,7 +42,25 @@ $(document).ready(function(){
   $('a').click(function(){
     //alert("I am click");
     var selected = $(this);
-    $('a').removeClass('.')
+    $('a').removeClass('active');
+    $(selected).addClass('active');
+  });
+  var $a = $('.a'),
+  $b = $('.b'),
+  $c = $('.c'),
+  $d = $('.d'),
+  $e = $('.e'),
+  $home = $('.home'),
+  $about = $('.about');
+
+  $a.click(function(){
+    $home.fadeIn();
+    $about.fadeOut();
+  });
+
+  $b.click(function(){
+    $home.fadeOut();
+    $about.fadeIn();
   });
 });
 </script>

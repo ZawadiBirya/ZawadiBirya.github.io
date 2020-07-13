@@ -2,6 +2,7 @@ body{
   background: url(https://zawadibirya.github.io/img/portfoliobackground.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1{

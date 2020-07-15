@@ -15,9 +15,12 @@ p {
   line-height: 1.6;
   text-color: black;
 }
-div
+.projects
    {
    text-align: center;
+   border:2px solid black;
+   padding-left: 6px;
+   border-style: hidden;
    }
 ul li{
   display: inline;
@@ -28,5 +31,9 @@ img {
   border-radius: 50%;
 }
 a {
-  color: black;    
+  color: black;
+  }
+  .footer{
+    width: 675px;
+    float:right;
   }
